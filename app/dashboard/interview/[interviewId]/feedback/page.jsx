@@ -14,6 +14,7 @@ import { Button } from "@/components/ui/button";
 
 function Feedback({ params }) {
   const [feedbackList, setFeedbackList] = useState([]);
+  const [averageRating, setAverageRating] = useState(0);
   const router = useRouter();
   useEffect(() => {
     const fetchFeedback = async () => {
@@ -25,6 +26,11 @@ function Feedback({ params }) {
           .orderBy(UserAnswer.id);
         console.log(result); // Check if the data is correct here
         setFeedbackList(result);
+         if (result.length > 0) {
+          const totalSum = result.reduce((acc, item) => acc + item.rating, 0);
+          const avgRating = totalSum / result.length;
+          setAverageRating(avgRating.toFixed(1)/5); // Round to one decimal place
+        }
       } catch (error) {
         console.error("Error fetching feedback:", error);
       }
@@ -51,7 +57,7 @@ function Feedback({ params }) {
             Here is your interview feedback
           </h2>
           <h2 className="text-lg text-primary my-3">
-            Your Overall interview rating: <strong>7/10</strong>
+            Your Overall interview rating: <strong>{averageRating} / 5</strong>
           </h2>
           <h2 className="text-sm text-gray-500">
             Find below interview questions with the correct answer, your answer,
