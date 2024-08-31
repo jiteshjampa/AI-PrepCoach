@@ -1,6 +1,4 @@
-Certainly! Here's the full code for your README with emojis added:
 
-```markdown
 <h1 align="center" id="title">🚀 AI PrepCoach 🚀</h1>
 
 <p align="center"><img src="https://socialify.git.ci/jiteshjampa/AI-PrepCoach/image?language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;theme=Dark" alt="project-image"></p>
@@ -78,4 +76,4 @@ Technologies used in the project:
 * 🗄️ **Drizzle ORM**
 * 🎨 **ShadCN**
 * 🛢️ **PostgreSQL**
-```
+
