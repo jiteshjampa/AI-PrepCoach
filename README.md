@@ -11,21 +11,21 @@
 
 <h2>📸 Project Screenshots</h2>
 
-<img src="https://snipboard.io/Ar29vT.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/Ar29vT.jpg" alt="project-screenshot" width="900" height="600/">
 
-<img src="https://snipboard.io/grRh6W.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/grRh6W.jpg" alt="project-screenshot" width="900" height="600/">
 
-<img src="https://snipboard.io/RH5Pap.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/RH5Pap.jpg" alt="project-screenshot" width="900" height="600/">
 
-<img src="https://snipboard.io/FXEhHJ.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/FXEhHJ.jpg" alt="project-screenshot" width="900" height="600/">
 
-<img src="https://snipboard.io/AMokjm.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/AMokjm.jpg" alt="project-screenshot" width="900" height="600/">
 
-<img src="https://snipboard.io/XaowES.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/XaowES.jpg" alt="project-screenshot" width="900" height="600/">
 
-<img src="https://snipboard.io/bsrXuC.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/bsrXuC.jpg" alt="project-screenshot" width="900" height="600/">
 
-<img src="https://snipboard.io/slHQjU.jpg" alt="project-screenshot" width="900" height="900/">
+<img src="https://snipboard.io/slHQjU.jpg" alt="project-screenshot" width="900" height="600/">
 
 <h2>🧐 Features</h2>
 
