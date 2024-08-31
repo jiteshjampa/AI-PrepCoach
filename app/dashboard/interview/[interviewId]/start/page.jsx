@@ -39,7 +39,7 @@ const StartInterview = ({ params }) => {
 
         const jsonMockResp = JSON.parse(result[0].jsonMockResp);
         console.log(jsonMockResp);
-        setMockInterviewQuestion(jsonMockResp.questions);
+        setMockInterviewQuestion(jsonMockResp);
       }
     } catch (error) {
       console.error("Error fetching interview details:", error);
